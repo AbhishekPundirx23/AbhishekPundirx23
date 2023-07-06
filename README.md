@@ -1,16 +1,34 @@
-### Hi there 👋
+<!-- Start About section -->
+𝐀𝐛𝐨𝐮𝐭 𝐌𝐞
 
-<!--
-**AbhishekPundirx23/AbhishekPundirx23** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python3
+class  about():
+    def __init__(self):
+        self.name = ['Abhishek Pundir']
+        self.age = ['20']
+        self.country = ['India']
+        self.language = ['हिंदी', 'English']
+    def programming_languages(self):
+        return [
+            'Python', 'SQL'
+        ]
+    def markup_languages(self):
+        return [
+            'HTML', 'CSS'
+        ]
+    def developer_tools(self):
+        return [
+            'GitHub', 'Stack Overflow', 'Docker','Heroku',
+            'MongoDB', 'MySQL',
+        ]
+    def operating_system(self):
+        return [
+            'Windows', 'Android'
+        ]
+    def windows_os(self):
+        return [
+            'Windows 11', 'Windows 10', 'Windows 8.1', 'Windows 7', 'Windows XP'
+        ]
+ ```
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- End About section -->
